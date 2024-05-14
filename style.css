@@ -1,4 +1,24 @@
-p {
-  font-style: italic;
-  color: magenta;
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-color: aqua;
+}
+
+#header {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  background-color: black;
+}
+
+#sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  background-color: pink;
+}
+
+#main-page {
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+  background-color: blue;
 }
