@@ -17,12 +17,31 @@ body {
   grid-template-rows: 2fr 3fr;
 }
 
-.header .top,
-.header .bottom {
-  display: flex;
-
+.header-top,
+.header-bottom {
   background-color: bisque;
   border: solid black;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top input {
+  flex-grow: 1;
+  margin: 12px 120px 12px 6px;
+
+  border-radius: 20px;
+  border: none;
+}
+
+.header-bottom {
+  display: flex;
+}
+
+.header-bottom .profile-widget {
+  flex-grow: 1;
 }
 
 .sidebar {
