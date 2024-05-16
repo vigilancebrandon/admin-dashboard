@@ -31,7 +31,15 @@ body {
   background-color: pink;
 
   display: grid;
-  grid-template-rows: 2fr repeat(9, 1fr);
+  grid-template-rows: repeat(3, max-content);
+  gap: 10%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
 }
 
 .main-page {
