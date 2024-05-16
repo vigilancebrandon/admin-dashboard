@@ -1,24 +1,31 @@
 body {
   display: grid;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
   background-color: aqua;
 }
 
-#header {
+.header {
   grid-column: 2 / -1;
   grid-row: 1 / 2;
-  background-color: black;
+  background-color: brown;
 }
 
-#sidebar {
+.sidebar {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
   background-color: pink;
 }
 
-#main-page {
+.main-page {
   grid-column: 2 / -1;
   grid-row: 2 / -1;
   background-color: blue;
+}
+
+.card-container {
+
 }
