@@ -16,7 +16,7 @@
 
   --title-font-size: 1.8rem;
   --body-font-size: 1rem;
-  --sidebar-font-size: 1.5rem
+  --sidebar-font-size: 1.3rem
 }
 
 body {
@@ -77,6 +77,8 @@ body {
   display: grid;
   grid-template-rows: repeat(3, min-content);
   gap: 10%;
+
+  padding: 40px 40px;
 }
 
 img.svg {
@@ -84,7 +86,11 @@ img.svg {
   height: auto;
 
   margin-right: 15%;
-  margin-left: 20%;
+  /* margin-left: 20%; */
+}
+
+img#dashboard-svg {
+  scale: 1.5;
 }
 
 .menu-option {
@@ -92,16 +98,16 @@ img.svg {
   align-items: center;
   justify-content: left;
 
-  size: var(--sidebar-font-size);
+  font-size: var(--sidebar-font-size);
 }
 
 .title {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 
   font-size: var(--title-font-size);
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
 }
 
 .menu {
