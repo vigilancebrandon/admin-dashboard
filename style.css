@@ -1,3 +1,18 @@
+:root {
+  --black: #0c0a09;
+  --dark-grey: #292524;
+  --medium-grey: #78716c;
+  --light-grey: #e7e5e4;
+  --white: #fafaf9;
+
+  --red-accent-dark: #b91c1c;
+  --orange-accent-dark: #c2410c;
+
+  --red-accent-light: #f87171;
+  --orange-accent-light: #fb923c;
+  --yellow-accent: #fbbf24;
+}
+
 body {
   display: grid;
   height: 100vh;
@@ -11,7 +26,7 @@ body {
 .header {
   grid-column: 2 / -1;
   grid-row: 1 / 2;
-  background-color: brown;
+  background-color: var(--white);
 
   display: grid;
   grid-template-rows: 2fr 3fr;
@@ -19,7 +34,7 @@ body {
 
 .header-top,
 .header-bottom {
-  background-color: bisque;
+  /* background-color: bisque; */
   border: solid black;
 }
 
@@ -51,7 +66,7 @@ body {
 .sidebar {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  background-color: pink;
+  background-color: var(--orange-accent-light);
 
   display: grid;
   grid-template-rows: repeat(3, min-content);
@@ -79,7 +94,7 @@ body {
   grid-row: 2 / -1;
   padding: 20px;
 
-  background-color: grey;
+  background-color: var(--light-grey);
 
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -114,5 +129,5 @@ body {
 
 .card {
   margin: 10px;
-  background-color: blueviolet;
+  background-color: var(--medium-grey);
 }
