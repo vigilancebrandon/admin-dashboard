@@ -131,6 +131,9 @@ img#dashboard-svg {
   padding: 20px;
 
   background-color: var(--medium-grey);
+  box-shadow: inset var(--shadow-color) 0px 6px 8px;
+
+  /* border-radius: ; */
 
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -172,6 +175,6 @@ img#dashboard-svg {
 
   padding: 2px 12px;
 
-  box-shadow: var(--shadow-color) 6px 6px;
+  box-shadow: var(--shadow-color) 6px 6px 8px;
 }
 
