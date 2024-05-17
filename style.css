@@ -1,4 +1,6 @@
 :root {
+  font-size: 18px;
+
   --black: #0c0a09;
   --dark-grey: #292524;
   --medium-grey: #78716c;
@@ -11,6 +13,10 @@
   --red-accent-light: #f87171;
   --orange-accent-light: #fb923c;
   --yellow-accent: #fbbf24;
+
+  --title-font-size: 1.8rem;
+  --body-font-size: 1rem;
+  --sidebar-font-size: 1.5rem
 }
 
 body {
@@ -74,17 +80,19 @@ body {
 }
 
 img.svg {
-  width: 20px;
+  width: 30px;
   height: auto;
 
   margin-right: 15%;
-  margin-left: 5%;
+  margin-left: 20%;
 }
 
 .menu-option {
   display: flex;
   align-items: center;
   justify-content: left;
+
+  size: var(--sidebar-font-size);
 }
 
 .title {
@@ -92,7 +100,7 @@ img.svg {
   justify-content: center;
   align-items: center;
 
-  font-size: 1.5rem;
+  font-size: var(--title-font-size);
   margin: 0px 10px;
 }
 
