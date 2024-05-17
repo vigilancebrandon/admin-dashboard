@@ -73,6 +73,20 @@ body {
   gap: 10%;
 }
 
+img.svg {
+  width: 20px;
+  height: auto;
+
+  margin-right: 15%;
+  margin-left: 5%;
+}
+
+.menu-option {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -131,3 +145,4 @@ body {
   margin: 10px;
   background-color: var(--medium-grey);
 }
+
