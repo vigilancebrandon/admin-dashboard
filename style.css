@@ -13,7 +13,7 @@
 
   --orange-dark: #c2410c;
   --orange-light: #fb923c;
-  
+
   --yellow: #fbbf24;
 
   --blue-light: #38bdf8;
@@ -179,7 +179,7 @@ img#dashboard-svg {
   background-color: var(--light-grey);
 
   border-radius: var(--card-border-radius);
-  border-left: solid var(--card-border-radius) var(--orange-dark);
+  border-left: solid var(--card-border-radius) var(--green-dark);
 
   padding: 2px 12px;
 
