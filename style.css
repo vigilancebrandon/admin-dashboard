@@ -83,14 +83,14 @@ body {
 .sidebar {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  background-color: var(--orange-dark);
+
+  padding: 40px 40px;
 
   display: grid;
   grid-template-rows: repeat(3, min-content);
   gap: 10%;
 
-  padding: 40px 40px;
-
+  background-color: var(--blue-dark);
   color: var(--white);
 }
 
@@ -184,7 +184,7 @@ img#dashboard-svg {
   background-color: var(--light-grey);
 
   border-radius: var(--card-border-radius);
-  border-left: solid var(--card-border-radius) var(--green-dark);
+  border-left: solid var(--card-border-radius) var(--orange-light);
 
   padding: 2px 12px;
 
