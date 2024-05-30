@@ -94,6 +94,7 @@ body {
 
 .subtitle {
   font-size: var(--subtitle-font-size);
+  margin: 0.5em;
 }
 
 img.svg {
@@ -177,4 +178,3 @@ img#dashboard-svg {
 
   box-shadow: var(--shadow-color) 6px 6px 8px;
 }
-
