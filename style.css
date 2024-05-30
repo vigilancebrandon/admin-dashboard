@@ -9,11 +9,18 @@
   --shadow-color: #2925243f;
 
   --red-dark: #b91c1c;
-  --orange-dark: #c2410c;
-
   --red-light: #f87171;
+
+  --orange-dark: #c2410c;
   --orange-light: #fb923c;
+  
   --yellow: #fbbf24;
+
+  --blue-light: #38bdf8;
+  --blue-dark: #0369a1;
+
+  --green-light: #4ade80;
+  --green-dark: #15803d;
 
   --title-font-size: 1.8rem;
   --subtitle-font-size: 1.5rem;
