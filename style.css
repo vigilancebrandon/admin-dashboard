@@ -85,13 +85,20 @@ body {
   /* justify-content: space-between; */
 }
 
+.header-top .search,
+.header-top .profile-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .header-top input {
   flex-grow: 1;
   max-width: 50%;
 
   height: 1em;
 
-  margin: 12px 120px 12px 6px;
+  margin: 12px 100px 12px 6px;
   padding: 8px;
 
   border-radius: 20px;
