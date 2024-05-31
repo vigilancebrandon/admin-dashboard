@@ -66,11 +66,12 @@ body {
 
 .header-top {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header-top input {
   flex-grow: 1;
+  max-width: 50%;
 
   height: 1em;
 
