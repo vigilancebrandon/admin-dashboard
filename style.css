@@ -52,6 +52,11 @@ body {
   /* border-radius: var(--card-border-radius); */
 }
 
+.header img.svg {
+  width: 30px;
+  height: auto;
+}
+
 .header-top,
 .header-bottom {
   background-color: var(--light-grey);
@@ -110,7 +115,7 @@ body {
   margin: 0.5em;
 }
 
-img.svg {
+.sidebar img.svg {
   width: 30px;
   height: auto;
 
