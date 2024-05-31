@@ -52,6 +52,15 @@ body {
   /* border-radius: var(--card-border-radius); */
 }
 
+.header img.png {
+  width: 60px;
+  height: auto;
+
+  border-radius: 50%;
+
+  align-self: center;
+}
+
 .header img.svg {
   width: 30px;
   height: auto;
@@ -61,7 +70,7 @@ body {
 .header-bottom {
   background-color: var(--light-grey);
   padding: 12px;
-  /* border: solid black; */
+  align-items: center;
 }
 
 .header-top {
