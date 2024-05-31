@@ -47,12 +47,16 @@ body {
 
   display: grid;
   grid-template-rows: 2fr 3fr;
+
+  /* border-left: var(--card-border-radius) solid var(--green-dark); */
+  /* border-radius: var(--card-border-radius); */
 }
 
 .header-top,
 .header-bottom {
-  /* background-color: bisque; */
-  border: solid black;
+  background-color: var(--light-grey);
+  padding: 12px;
+  /* border: solid black; */
 }
 
 .header-top {
@@ -70,6 +74,8 @@ body {
 
   border-radius: 20px;
   border: none;
+
+  background-color: var(--white);
 }
 
 .header-bottom {
