@@ -58,6 +58,7 @@ body {
   width: var(--profile-image-width);
   height: auto;
 
+  margin-right: 8px;
   border-radius: 50%;
 
   align-self: center;
@@ -82,29 +83,43 @@ body {
 
 .header-top {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
-.header-top .search,
 .header-top .profile-widget {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  
+  min-width: max-content;
+  margin-left: 16px;
 }
 
 .header-top input {
   flex-grow: 1;
-  max-width: 50%;
+  /* max-width: 50%; */
 
   height: 1em;
 
-  margin: 12px 100px 12px 6px;
+  /* margin: 12px 100px 12px 6px; */
+  margin: 12px 6px;
   padding: 8px;
 
   border-radius: 20px;
   border: none;
 
   background-color: var(--white);
+}
+
+.header-top .search {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  margin-right: 100px;
+}
+
+.header-top .profile-widget {
+  justify-content: end;
 }
 
 .header-bottom {
